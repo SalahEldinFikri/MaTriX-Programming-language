@@ -2,6 +2,14 @@
 ### New programming language based on python, C++, C# using Goldparser 5.2v and Calitha engine.
 ![image](https://user-images.githubusercontent.com/71356170/231051236-86c1c7ad-0b93-4ba9-8f90-b8bbd2e56b55.png)
 
+### This appears to be a context-free grammar for a programming language called "MaTriX". The grammar is defined using BNF (Backus-Naur Form) notation, where the production rules are defined using a combination of terminal symbols (such as identifiers, integers, and floats) and non-terminal symbols (such as program, assignment, declaration, and so on).
+
+### The grammar starts with the (program) non-terminal, which is the starting symbol of the language. The <program> non-terminal defines the structure of a program in the MaTriX language, and it consists of a series of statements enclosed in curly braces. The statements themselves are defined by several other non-terminals, such as (assignment, declaration, for, while, switch, and if).
+
+### The <assignment> non-terminal defines how variables are assigned values in the MaTriX language. The (declaration) non-terminal defines how variables are declared and initialized with integer or float values. The (for, while, switch, and if) non-terminals define the various control structures available in the language, such as loops, conditionals, and switch statements.
+
+### The grammar also defines a set of arithmetic and assignment operators that can be used to manipulate variables and perform calculations. These include the standard addition, subtraction, multiplication, and division operators, as well as compound assignment operators such as +=, -=, *=, and /=.
+
 ## This grammar defines a programming language syntax that includes the following components:
 #### - Terminals: identifiers, integers, and floating-point numbers.
 #### - Non-terminals: program, constant, assignment, declaration, for loop, while loop, switch statement, if-else statement, expressions, statement list, and arithmetic operations.
